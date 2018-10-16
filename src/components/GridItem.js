@@ -7,7 +7,7 @@ class GridItem extends React.Component {
     return (
       <div className="grid-item"></div>
     );
-  }
+  };
 }
 
 export default GridItem;
