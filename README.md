@@ -7,6 +7,9 @@ The challenge consists of implementing a component that renders only child eleme
 ### Details
 A Grid contains multiple `GridItems`. Toggle a className `active` to those `GridItems` that are visible in the viewport.
 
+### Solution
+Implemented IntersectionObserver API to toggle className `active` to `GridItems` outside the viewport.
+
 ## Install
 ```
 npm install
