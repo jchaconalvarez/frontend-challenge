@@ -1,4 +1,4 @@
-# Landbot frontend challenge
+# Interactive grid challenge
 ## Description
 The cost of rendering thousands of elements in the DOM is very high. The objective of this challenge is to offer a solution to this problem.
 
@@ -10,7 +10,7 @@ A Grid contains multiple `GridItems`. Toggle a className `active` to those `Grid
 ### Solution
 Implemented IntersectionObserver API to toggle className `active` to `GridItems` outside the viewport.
 
-## Install
+## Install instructions
 ```
 npm install
 ```
@@ -22,16 +22,8 @@ npm start
 ```
 
 ## Documentation
-> Document your code assuming that the next engineer looking at your code is a serial killer who knows where you live.
-
-Use JSDoc 3 docummentation style. http://usejsdoc.org/
+Used JSDoc3 documentation style.
 
 
 ## Coding style
-Please, try to follow a coding style guide to keep the code readable and easily debuggable.
-
-### JAVASCRIPT
-https://github.com/airbnb/javascript
-
-### STYLE
-https://github.com/airbnb/css
+Followed AirBnB style guidelines.
