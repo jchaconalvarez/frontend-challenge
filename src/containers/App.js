@@ -11,8 +11,7 @@ class App extends React.Component {
 
   render() {
     const state = this.state;
-
-    return ( !state.started ?
+    return (!state.started ?
       <section className="hero is-fullheight">
         <div className="hero-body">
           <div className="container">
